@@ -38,9 +38,10 @@ a{
 }
 .link-wrapper > li > a{
     color: white;
+    font-weight: 300;
     font-size: 18px;
     line-height: 5;
 }
-.cover-img{
-    
+.cover-img > img{
+
 }
