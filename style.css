@@ -45,5 +45,6 @@ a{
 .cover-img > div {
     height: calc(100vh - 106px);
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(./images/hero.jpg);
+      url(./Pictures/hero.jpg);
+      background-position: center;
   }
