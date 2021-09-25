@@ -48,7 +48,10 @@ a{
       url(./Pictures/hero.jpg);
       background-size: cover;
       background-position: center;
-  }
+}
+.slogan-wrapper{
+    min-width: 810px;
+}
 .slogan{
     font-size: 45px;
     color: white;
@@ -62,15 +65,31 @@ a{
     align-items: center;
     padding-right: 500px;
     padding-bottom: 200px;
-}.div-button{
+    flex-direction: column;
+}
+.div-button{
     display: inline-block;
-    color: gray;
-    border: 1px solid salmon;
-    background: white;
+    color: white;
+    border: 1px solid orange;
+    background: transparent;
+    border-radius: 100px;
     cursor: pointer;
-    min-width: 100px;
-    padding: 5px;
+    min-width: 250px;
+    padding: 20px;
     text-align: center;
-    margin-left: 20px;
-    min-height: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+    min-height: 50px;
+    font-size: 22px;
+    font-weight: 300;
+}
+.button-wrapper{
+    display: flex;
+    align-items: flex-start;
+    min-width: 810px;
+}
+#main-btn{
+    background-color:orange;
+    color: white;
+    min-width: 200px;
 }
