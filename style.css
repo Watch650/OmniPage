@@ -43,8 +43,23 @@ a{
     line-height: 5;
 }
 .cover-img > div {
-    height: calc(100vh - 106px);
+    height: calc(100vh - 103px);
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(./Pictures/hero.jpg);
+      background-size: cover;
       background-position: center;
   }
+.slogan{
+    font-size: 45px;
+    color: white;
+    font-weight: 300;
+    word-spacing: 7px;
+    letter-spacing: 5px;
+}
+.slogan-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 500px;
+    padding-bottom: 200px;
+}
