@@ -43,7 +43,7 @@ a{
     line-height: 5;
 }
 .cover-img > div {
-    height: calc(100vh - 103px);
+    height: calc(100vh - 106px);
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(./Pictures/hero.jpg);
       background-size: cover;
@@ -62,4 +62,15 @@ a{
     align-items: center;
     padding-right: 500px;
     padding-bottom: 200px;
+}.div-button{
+    display: inline-block;
+    color: gray;
+    border: 1px solid salmon;
+    background: white;
+    cursor: pointer;
+    min-width: 100px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 20px;
+    min-height: 40px;
 }
