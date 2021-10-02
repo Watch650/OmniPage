@@ -43,7 +43,7 @@ a{
     line-height: 5;
 }
 .cover-img > div {
-    height: calc(100vh - 106px);
+    height: calc(100vh - 102px);
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(./Pictures/hero.jpg);
       background-size: cover;
@@ -92,4 +92,39 @@ a{
     background-color:orange;
     color: white;
     min-width: 200px;
+}
+.page-container{
+    padding: 50px;
+    /* min-height: 100vh; */
+}
+.word-wrapper{
+    text-align: center;
+}
+.word-wrapper > h1{
+    font-size: 40px;
+    font-weight: 300;
+    word-spacing: 5px;
+    padding-bottom: 10px;
+    /* letter-spacing: 5px; */
+}
+.word-wrapper > hr{
+    width: 7%;
+    margin: 0 auto;
+    border-color: orange;
+}
+.word-wrapper > p{
+    font-size: 19px;
+    padding-top: 15px;
+    word-spacing: 2px;
+    color: gray;
+}
+.option-row{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    padding: 30px;
+}
+.option > img{
+    width: 20%;
+    filter: invert(73%) sepia(24%) saturate(7000%) hue-rotate(0deg) brightness(103%) contrast(104%);
 }
