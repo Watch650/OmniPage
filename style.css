@@ -18,7 +18,7 @@ a{
     top: 0;
 }
 .nav-wrapper {
-    background-color: tomato;
+    background-color: orange;
     display: flex;
     justify-content: space-around;
 }
@@ -56,8 +56,8 @@ a{
     font-size: 45px;
     color: white;
     font-weight: 300;
-    word-spacing: 7px;
-    letter-spacing: 5px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 .slogan-button-container{
     display: flex;
@@ -95,36 +95,72 @@ a{
 }
 .page-container{
     padding: 50px;
-    /* min-height: 100vh; */
+    /* height: 50vh; */
 }
 .word-wrapper{
     text-align: center;
 }
 .word-wrapper > h1{
-    font-size: 40px;
+    margin-top: 20px ;
+    font-size: 35px;
     font-weight: 300;
-    word-spacing: 5px;
-    padding-bottom: 10px;
-    /* letter-spacing: 5px; */
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(90, 90, 90);
 }
 .word-wrapper > hr{
-    width: 7%;
+    width: 120px;
     margin: 0 auto;
     border-color: orange;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .word-wrapper > p{
-    font-size: 19px;
-    padding-top: 15px;
-    word-spacing: 2px;
-    color: gray;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+    /* letter-spacing: 1px; */
+    color: rgb(90, 90, 90);
 }
 .option-row{
     display: flex;
     justify-content: space-around;
+    padding-top: 40px;
+    margin: 10px;
     /* text-align: center; */
-    padding: 30px;
+    /* padding: 30px; */
+}
+.option{
+    width: 290px;
+    /* letter-spacing: 1px; */
+    color: rgb(90, 90, 90);
 }
 .option > img{
-    width: 20%;
+    width: 60px;
     filter: invert(73%) sepia(24%) saturate(7000%) hue-rotate(0deg) brightness(103%) contrast(104%);
+    padding-bottom: 15px;
+}
+.option > h1{
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 9px;
+}
+.option > p{
+    font-size: 18px;
+    line-height: 1.6;
+    word-spacing: 1px;
+    font-weight: 400;
+}
+
+.sample-imgs{
+    display: flex;
+    /* margin-top: 250px; */
+    background-color: black;
+    flex-wrap: wrap;
+}
+.sample-imgs > img{
+    width: 25%;
+    height: 70%;
+    opacity: 0.7;
 }
